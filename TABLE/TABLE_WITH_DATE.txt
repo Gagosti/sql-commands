@@ -1,0 +1,1 @@
+CREATE TABLE <nome da tabela> (name VARCHAR(20), birth DATE);

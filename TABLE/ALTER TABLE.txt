@@ -1,0 +1,5 @@
+ALTER TABLE <tabela> ADD COLUMN <coluna> <tipo>;
+
+ALTER TABLE <tabela> DROP COLUMN <coluna>;
+
+ALTER TABLE <tabela> MODIFY COLUMN <coluna> <tipo>;
