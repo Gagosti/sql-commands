@@ -1,0 +1,3 @@
+SELECT <nome da coluna>
+FROM <nome da tabela>
+WHERE <nome da coluna> BETWEEN <valor 1> AND <valor 2>;
