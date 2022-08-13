@@ -1,0 +1,6 @@
+CREATE INDEX index_nome
+on <nome da tabela>(nome da coluna);
+
+OBS: com a adição de index nas colunas aumenta a velocidade de retorno das queries,
+o recomendado é adicionar index nas colunas que mais fazemos buscas no dia a dia de
+trabalho.
