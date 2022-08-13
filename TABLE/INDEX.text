@@ -4,3 +4,7 @@ on <nome da tabela>(nome da coluna);
 OBS: com a adição de index nas colunas aumenta a velocidade de retorno das queries,
 o recomendado é adicionar index nas colunas que mais fazemos buscas no dia a dia de
 trabalho.
+
+DROP INDEX index_name ON <table>;
+OBS: se o index não for mais necessário em determinada tabela é importante retira-lo
+e usa-lo em outro lugar, buscando sempre a velocidade das queries.
