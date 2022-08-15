@@ -1,0 +1,2 @@
+SELECT * FROM <tabela>
+WHERE <coluna> LIKE '%<conteúdo a ser localizado>' ou '<conteúdo a ser localizado>%' ou '%<conteúdo a ser localizado>%'
