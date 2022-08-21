@@ -1,0 +1,16 @@
+-> HAVING é utilizado para colocar condições de filtro com
+com funções agregadas
+
+SELECT <nome da coluna>
+FROM <nome da tabela>
+WHERE <condição>
+GROUP BY <nome da coluna>
+HAVING <condição>
+ORDER BY <nome da coluna>
+
+Segue um exmeplo:
+
+SELECT COUNT <ID_COMPRADORES>, <PAÍS>
+FROM <COMPRADORES>
+GROUP BY <PAÍS>
+HAVING COUNT <ID_COMPRADORES> > 5;
