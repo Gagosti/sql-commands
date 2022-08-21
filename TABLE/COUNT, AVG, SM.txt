@@ -1,0 +1,11 @@
+SELECT COUNT <noma da coluna>
+FROM <nome da tabela>
+WHERE <condição>;
+
+SELECT AVG <nome da coluna>
+FROM <nome da tabela>
+WHERE <condição>;
+
+SELECT SUM <nome da coluna>
+FROM <nome da tabela>
+WHERE <condição>;
