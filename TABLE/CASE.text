@@ -1,0 +1,6 @@
+CASE
+  WHEN <condição 1> THEN <resultado 1>
+  WHEN <condição 2> THEN <resultado 2>
+  WHEN <condição 3> THEN <resultado 3>
+  ELSE <resultado 4>
+END;
