@@ -1,0 +1,1 @@
+SELECT TRIM <'   nome da coluna       '> AS nome da coluna sem espaço;
